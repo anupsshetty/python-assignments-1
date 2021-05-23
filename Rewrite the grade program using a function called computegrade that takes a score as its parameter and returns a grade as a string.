@@ -1,0 +1,24 @@
+1 def computegrade():
+2    try:
+3        s=float(score)
+4    except:
+5        print("Bad Score")
+6        quit()
+7    if s>1.0 or s<0.0 :
+8	    x="Error"
+9    elif s >= 0.9:
+10	    x = 'A'
+11    elif s >=0.8:
+12	    x='B'
+13    elif s>=0.7:
+14	    x='C'
+15    elif s >= 0.6:
+16	    x='D'
+17    elif s < 0.6:
+18	    x ='F'
+19    else:
+20	    x ="Bad score"
+21    print (x)
+22 score = input("Enter Score: ")
+23 computegrade():
+    
