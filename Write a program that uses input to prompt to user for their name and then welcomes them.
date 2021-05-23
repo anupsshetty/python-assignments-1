@@ -1,0 +1,2 @@
+1.name = input("Enter your name: ")
+2.print("Hello " + name)
